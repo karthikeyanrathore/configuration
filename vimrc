@@ -1,3 +1,8 @@
+" F5 : Compile
+" ctrl-O : Terminal
+
+
+
 filetype on
 filetype indent on
 syntax on
