@@ -1,1 +1,1 @@
-# Setup for Python & C++ & .Vimrc Conf
+Setup for Python & C++ & .Vimrc Conf
