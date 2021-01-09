@@ -37,7 +37,7 @@ set noswapfile
 set smartindent 
 
 set autoindent
-set mouse=a
+set mouse=n
 "set background=light " for the dark version
 " set background=light " for the light version
 
