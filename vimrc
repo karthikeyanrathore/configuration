@@ -1,6 +1,13 @@
 " F5 : Compile
 " ctrl-O : Terminal
 
+if has("gui_running")
+	set guifont=Monospace\ 12	
+	imap <C-S-v> <Esc>"+gP
+endif
+
+
+
 
 
 filetype on
