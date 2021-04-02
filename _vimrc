@@ -11,8 +11,9 @@ filetype indent on
 syntax on
 autocmd BufNewFile *.cpp execute "0r ~/.vim/template/".input("Template name: ").".cpp"
 autocmd BufNewFile *.py execute "0r ~/.vim/template/".input("Template name: ").".py"
-map <F9> :!g++ -g % -o %:r && ./%:r <CR>
-map <F5> :!g++ -g % -o %:r <CR>
+
+autocmd filetype cpp nnoremap <f5> :w <bar> !g++ -std=c++11 -O2 -Wall % -o %:r && %:r.exe <cr>
+
 map <F2> :w! <CR>
 map <C-o> :wq! <CR>
 set autowrite
