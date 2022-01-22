@@ -1,2 +1,2 @@
- Setup for Python & C++ & .Vimrc Conf && tmux
+ Setup for Python & C++ & .Vimrc Conf && tmux && screen && tensorflow
  
