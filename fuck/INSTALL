@@ -1,0 +1,17 @@
+How to install tensorflow on mac?
+
+REF
+- https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-mac-metal-jul-2021.ipynb
+- https://developer.apple.com/metal/tensorflow-plugin/
+
+HOW TO?
+chmod +x ~/Downloads/Miniforge3-MacOSX-arm64.sh
+sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
+source ~/miniforge3/bin/activate
+reopen terminal
+conda config --set auto_activate_base False
+reopen terminal
+export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
+export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+conda env create -f dep.yml -n batman 
+conda activate batman
