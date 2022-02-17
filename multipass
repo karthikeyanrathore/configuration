@@ -1,0 +1,8 @@
+Ubuntu on Mac
+- install multipass
+
+access local host from ubuntu machine
+sudo ufw enable
+sudo ufw allow 5000/tcp //allow the server to handle the request on port 5000
+https://<ip_address_ub_machine>:5000 
+
