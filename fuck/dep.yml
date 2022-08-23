@@ -1,7 +1,7 @@
 name: tensorflow
  
 dependencies:
-    - python=3.9
+    - python=3.8 # https://developer.apple.com/forums/thread/693292
     - pip>=19.0
     - jupyter
     - apple::tensorflow-deps==2.5.0
