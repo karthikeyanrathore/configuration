@@ -1,11 +1,11 @@
 [/]
 foreground-color='rgb(255,255,255)'
 visible-name='work'
-palette=['rgb(0,0,0)', 'rgb(229,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(205,0,205)', 'rgb(205,0,205)', 'rgb(0,229,229)', 'rgb(229,229,229)', 'rgb(0,0,0)', 'rgb(229,0,0)', 'rgb(0,217,0)', 'rgb(229,229,0)', 'rgb(92,92,255)', 'rgb(229,0,229)', 'rgb(0,229,229)', 'rgb(229,229,229)']
+palette=['rgb(0,0,0)', 'rgb(229,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(205,0,205)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(0,0,0)', 'rgb(229,0,0)', 'rgb(0,217,0)', 'rgb(229,229,0)', 'rgb(76,76,247)', 'rgb(229,0,229)', 'rgb(0,229,229)', 'rgb(229,229,229)']
 bold-is-bright=true
 use-system-font=false
 use-theme-colors=false
-font='Monospace 9'
+font='SF Mono 9'
 use-theme-transparency=false
 background-color='rgb(0,0,0)'
 audible-bell=false
